@@ -89,7 +89,7 @@ if (app.Environment.IsDevelopment())
 // Map Aspire service defaults (health checks, etc.)
 app.MapDefaultEndpoints();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseCors("AllowAngularApp");
 
 app.UseAuthentication();

@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'primeng/resources/themes/lara-light-blue/theme.css';
+@import 'primeng/resources/primeng.css';
+@import 'primeicons/primeicons.css';
+
+/* Custom global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Utility classes similar to TailwindCSS */
+.min-h-screen { min-height: 100vh; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.bg-gray-50 { background-color: #f9fafb; }
+.py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.max-w-md { max-width: 28rem; }
+.w-full { width: 100%; }
+.space-y-8 > * + * { margin-top: 2rem; }
+.text-center { text-align: center; }
+.text-3xl { font-size: 1.875rem; }
+.font-bold { font-weight: 700; }
+.text-gray-900 { color: #111827; }
+.mt-6 { margin-top: 1.5rem; }
+.text-sm { color: #6b7280; }
+.text-gray-600 { color: #6b7280; }
+.mt-2 { margin-top: 0.5rem; }
+.shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+.space-y-6 > * + * { margin-top: 1.5rem; }
+.p-6 { padding: 1.5rem; }
+.text-lg { font-size: 1.125rem; }
+.font-medium { font-weight: 500; }
+.mt-8 { margin-top: 2rem; }
+.text-xs { font-size: 0.75rem; }
+.text-gray-500 { color: #6b7280; }
+.container { max-width: 1200px; margin: 0 auto; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+.mb-8 { margin-bottom: 2rem; }
+.grid { display: grid; }
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.gap-6 { gap: 1.5rem; }
+.space-y-4 > * + * { margin-top: 1rem; }
+.border-0 { border-width: 0; }
+.border-b { border-bottom-width: 1px; }
+.border-gray-200 { border-color: #e5e7eb; }
+
+@media (min-width: 640px) {
+  .sm\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+}
